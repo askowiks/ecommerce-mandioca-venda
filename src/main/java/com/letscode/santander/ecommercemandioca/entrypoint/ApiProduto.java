@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@FeignClient(value = "api-produto", url = "http://localhost:8082/produto")
+@FeignClient(value = "api-produto", url = "https://ecommerce-mandioca-produto.herokuapp.com/produto")
 public interface ApiProduto {
 
     @GetMapping
